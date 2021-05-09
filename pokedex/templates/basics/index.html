@@ -3,6 +3,10 @@
 
 {% block title %} {{data.name|capfirst}} {% endblock %}
 {% block style %} <link rel="stylesheet" href="{% static 'basics/index.css' %}"> {% endblock %}
+{% block script %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+<script src="{% static 'basics/index.js' %}"></script>
+{% endblock %}
 
 {% block content %}
 <h1 id="pokemon-title">{{data.name|capfirst}}</h1>
@@ -25,5 +29,15 @@
             {% endfor %}
         </div>
     </div>
+</div>
+
+<h2 class="subtitle text-center mb-0 pt-4">Stats</h2>
+<div id="canvas-container">
+    {% for name, value in data.stats %}
+    <p class="d-none" id="{{name}}">{{value}}</p>
+    {% endfor %}
+
+    <canvas id="stats-chart" height="150"></canvas>
+    <p class="ml-4" id="total-stats"></p>
 </div>
 {% endblock %}

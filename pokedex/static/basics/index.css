@@ -12,6 +12,20 @@
     font-weight: 400;
 }
 
+#canvas-container {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    #canvas-container {
+        width: 100%;
+    }
+}
+
+#total-stats {
+    font-size: 1.25rem;
+}
+
 .type {
     padding: 0.4rem 1.2rem;
     color: white;

@@ -8,12 +8,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 def get_abilities(data):
     abilities = []
-    index = 1
     for d in data['abilities']:
-        abilities_dict = d['ability']
-        abilities_dict.update({'index': index})
-        index += 1
-        abilities_dict.update({'is_hidden': d['is_hidden']})
+        abilities_dict = {
+            'name':d['ability']['name'].replace('-', ' '),
+            'url':d['ability']['url'],
+            'is_hidden': d['is_hidden']
+        }
+        # abilities_dict.update({})
 
         abilities.append(abilities_dict)
 
@@ -22,6 +23,12 @@ def get_abilities(data):
 def get_types(data):
     types = [d['type'] for d in data['types']]
     return types
+
+def get_stats(data):
+    stats_values = [d['base_stat'] for d in data['stats']]
+    stats_names = [d['stat']['name'] for d in data['stats']]
+    
+    return tuple(zip(stats_names, stats_values))
 
 # Create your views here.
 def pokemon(request, name):
@@ -32,15 +39,16 @@ def pokemon(request, name):
         return redirect('pokedex_index')
 
     res = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_id}/')   
-    evolution_res = requests.get(f'https://pokeapi.co/api/v2/evolution-chain/{pokemon_id}/')
+    # evolution_res = requests.get(f'https://pokeapi.co/api/v2/evolution-chain/{pokemon_id}/')
 
     data = res.json()
-    evolution_data = evolution_res.json()
+    # evolution_data = evolution_res.json()
 
     sprite = data['sprites']['other']['official-artwork']['front_default']
     abilities = get_abilities(data)
     types = get_types(data)
+    stats = get_stats(data)
 
-    data = {'name':name, 'sprite':sprite, 'abilities':abilities, 'types':types}
+    data = {'name':name, 'sprite':sprite, 'abilities':abilities, 'types':types, 'stats':stats}
 
     return render(request, 'basics/index.html', {'data':data})
