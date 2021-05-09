@@ -1,0 +1,28 @@
+#pokemon-image {
+    width: 20rem;
+}
+
+#pokemon-title {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.type {
+    padding: 0.4rem 1.2rem;
+    color: white;
+    border-radius: 5px;
+    margin: 0 0.2rem;
+}
+
+.type-grass {
+    background-color: rgb(17, 202, 17);
+}
+
+.type-poison {
+    background-color: rgb(155, 18, 155);
+}

@@ -12,21 +12,8 @@
     {% bootstrap_css %}
     {% bootstrap_javascript jquery='full' %}
 
-    <style>
-        #search-image {
-            width: 1.4rem;
-        }
-
-        #search-form {
-            width: 24rem;
-        }
-
-        @media (max-width: 768px) {
-            #search-form {
-                width: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    {% block style %}{% endblock %}
 </head>
 <body>
     <header class="mb-3">
@@ -48,7 +35,10 @@
             </form>
         </nav>
     </header>
-    <div class="container text-center">
+
+    {% bootstrap_messages %}
+
+    <div class="container d-flex flex-column align-items-center mb-5">
         {% block content %}{% endblock %}
     </div>
 </body>
