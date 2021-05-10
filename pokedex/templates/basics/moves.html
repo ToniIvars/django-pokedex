@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} {{data.name|capfirst}} moves {% endblock %}
+{% block style %} <link rel="stylesheet" href="{% static 'basics/moves.css' %}"> {% endblock %}
+{% block script %} <script src="{% static 'basics/moves.js' %}"></script> {% endblock %}
+
+{% block content %}
+<h1 id="pokemon-title">{{data.name|capfirst}} moves</h1>
+
+<!-- Generation buttons -->
+<div class="d-flex flex-wrap justify-content-center mb-3">
+    <button class="mx-3 gen-buttons button-disabled" id="gen-1">Gen I</button>
+    <button class="mx-3 gen-buttons" id="gen-2">Gen II</button>
+    <button class="mx-3 gen-buttons" id="gen-3">Gen III</button>
+    <button class="mx-3 gen-buttons" id="gen-4">Gen IV</button>
+    <button class="mx-3 gen-buttons" id="gen-5">Gen V</button>
+    <button class="mx-3 gen-buttons" id="gen-6">Gen VI</button>
+    <button class="mx-3 gen-buttons" id="gen-7">Gen VII</button>
+</div>
+
+<h2 class="subtitle text-center" id="gen-title">Generation I</h2>
+
+<div id="gen-1" class="gen-tables">
+    <h3 class="learn-method ml-2 mt-2 text-primary">Level up</h3>
+    <table class="table table-hover text-center">
+        <thead>
+            <tr>
+                <th class="text-left">Name</th>
+                <th>Level</th>
+                <th>Accuracy</th>
+                <th>Power</th>
+                <th>PP</th>
+                <th>Type</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for move in data.moves.gen_1.level_up|dictsort:"level" %}
+            <tr>
+                <td class="text-left">{{move.name}}</td>
+                <td class="align-middle">{{move.level}}</td>
+                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{move.pp}}</td>
+                <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
+                <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% if data.moves.gen_1.egg %}
+    <h3 class="learn-method ml-2 mt-2 text-primary">Egg</h3>
+    <table class="table table-hover text-center">
+        <thead>
+            <tr>
+                <th class="text-left">Name</th>
+                <th>Level</th>
+                <th>Accuracy</th>
+                <th>Power</th>
+                <th>PP</th>
+                <th>Type</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for move in data.moves.gen_1.egg|dictsort:"level" %}
+            <tr>
+                <td class="text-left">{{move.name}}</td>
+                <td class="align-middle">{{move.level}}</td>
+                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{move.pp}}</td>
+                <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
+                <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+    <h3 class="learn-method ml-2 mt-2 text-primary">Machine</h3>
+    <table class="table table-hover text-center">
+        <thead>
+            <tr>
+                <th class="text-left">Name</th>
+                <th>Accuracy</th>
+                <th>Power</th>
+                <th>PP</th>
+                <th>Type</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for move in data.moves.gen_1.machine|dictsort:"name" %}
+            <tr>
+                <td class="text-left">{{move.name}}</td>
+                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{move.pp}}</td>
+                <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
+                <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% if data.moves.gen_1.tutor %}
+    <h3 class="learn-method ml-2 mt-2 text-primary">Tutor</h3>
+    <table class="table table-hover text-center">
+        <thead>
+            <tr>
+                <th class="text-left">Name</th>
+                <th>Level</th>
+                <th>Accuracy</th>
+                <th>Power</th>
+                <th>PP</th>
+                <th>Type</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for move in data.moves.gen_1.tutor %}
+            <tr>
+                <td class="text-left">{{move.name}}</td>
+                <td class="align-middle">{{move.level}}</td>
+                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{move.pp}}</td>
+                <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
+                <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</div>
+{% endblock %}

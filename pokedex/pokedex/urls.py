@@ -20,6 +20,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pokedex/', include('basics.urls')),
+    path('pokemon/', include('basics.urls')),
     path('', views.index, name='pokedex_index')
 ]

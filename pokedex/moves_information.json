@@ -1,0 +1,5294 @@
+{
+    "1": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "category": "physical"
+    },
+    "2": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 25,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "3": {
+        "accuracy": 85,
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "4": {
+        "accuracy": 85,
+        "power": 18,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "5": {
+        "accuracy": 85,
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "6": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "7": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "category": "physical"
+    },
+    "8": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "category": "physical"
+    },
+    "9": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "category": "physical"
+    },
+    "10": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "category": "physical"
+    },
+    "11": {
+        "accuracy": 100,
+        "power": 55,
+        "pp": 30,
+        "type": "normal",
+        "category": "physical"
+    },
+    "12": {
+        "accuracy": 30,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "13": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "14": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "15": {
+        "accuracy": 95,
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "category": "physical"
+    },
+    "16": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "category": "special"
+    },
+    "17": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "category": "physical"
+    },
+    "18": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "19": {
+        "accuracy": 95,
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "category": "physical"
+    },
+    "20": {
+        "accuracy": 85,
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "21": {
+        "accuracy": 75,
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "22": {
+        "accuracy": 100,
+        "power": 45,
+        "pp": 25,
+        "type": "grass",
+        "category": "physical"
+    },
+    "23": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "24": {
+        "accuracy": 100,
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "25": {
+        "accuracy": 75,
+        "power": 120,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "26": {
+        "accuracy": 95,
+        "power": 100,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "27": {
+        "accuracy": 85,
+        "power": 60,
+        "pp": 15,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "28": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "category": "status"
+    },
+    "29": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "30": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 25,
+        "type": "normal",
+        "category": "physical"
+    },
+    "31": {
+        "accuracy": 85,
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "32": {
+        "accuracy": 30,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "33": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "category": "physical"
+    },
+    "34": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "35": {
+        "accuracy": 90,
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "36": {
+        "accuracy": 85,
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "37": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "38": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "39": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "40": {
+        "accuracy": 100,
+        "power": 15,
+        "pp": 35,
+        "type": "poison",
+        "category": "physical"
+    },
+    "41": {
+        "accuracy": 100,
+        "power": 25,
+        "pp": 20,
+        "type": "bug",
+        "category": "physical"
+    },
+    "42": {
+        "accuracy": 95,
+        "power": 25,
+        "pp": 20,
+        "type": "bug",
+        "category": "physical"
+    },
+    "43": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "44": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 25,
+        "type": "dark",
+        "category": "physical"
+    },
+    "45": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "46": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "47": {
+        "accuracy": 55,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "48": {
+        "accuracy": 55,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "49": {
+        "accuracy": 90,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "special"
+    },
+    "50": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "51": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "poison",
+        "category": "special"
+    },
+    "52": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 25,
+        "type": "fire",
+        "category": "special"
+    },
+    "53": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "fire",
+        "category": "special"
+    },
+    "54": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "ice",
+        "category": "status"
+    },
+    "55": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 25,
+        "type": "water",
+        "category": "special"
+    },
+    "56": {
+        "accuracy": 80,
+        "power": 110,
+        "pp": 5,
+        "type": "water",
+        "category": "special"
+    },
+    "57": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "water",
+        "category": "special"
+    },
+    "58": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "ice",
+        "category": "special"
+    },
+    "59": {
+        "accuracy": 70,
+        "power": 110,
+        "pp": 5,
+        "type": "ice",
+        "category": "special"
+    },
+    "60": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "psychic",
+        "category": "special"
+    },
+    "61": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "water",
+        "category": "special"
+    },
+    "62": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "ice",
+        "category": "special"
+    },
+    "63": {
+        "accuracy": 90,
+        "power": 150,
+        "pp": 5,
+        "type": "normal",
+        "category": "special"
+    },
+    "64": {
+        "accuracy": 100,
+        "power": 35,
+        "pp": 35,
+        "type": "flying",
+        "category": "physical"
+    },
+    "65": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 20,
+        "type": "flying",
+        "category": "physical"
+    },
+    "66": {
+        "accuracy": 80,
+        "power": 80,
+        "pp": 20,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "67": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "68": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "69": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "70": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "71": {
+        "accuracy": 100,
+        "power": 20,
+        "pp": 25,
+        "type": "grass",
+        "category": "special"
+    },
+    "72": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 15,
+        "type": "grass",
+        "category": "special"
+    },
+    "73": {
+        "accuracy": 90,
+        "power": null,
+        "pp": 10,
+        "type": "grass",
+        "category": "status"
+    },
+    "74": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "75": {
+        "accuracy": 95,
+        "power": 55,
+        "pp": 25,
+        "type": "grass",
+        "category": "physical"
+    },
+    "76": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "type": "grass",
+        "category": "special"
+    },
+    "77": {
+        "accuracy": 75,
+        "power": null,
+        "pp": 35,
+        "type": "poison",
+        "category": "status"
+    },
+    "78": {
+        "accuracy": 75,
+        "power": null,
+        "pp": 30,
+        "type": "grass",
+        "category": "status"
+    },
+    "79": {
+        "accuracy": 75,
+        "power": null,
+        "pp": 15,
+        "type": "grass",
+        "category": "status"
+    },
+    "80": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "type": "grass",
+        "category": "special"
+    },
+    "81": {
+        "accuracy": 95,
+        "power": null,
+        "pp": 40,
+        "type": "bug",
+        "category": "status"
+    },
+    "82": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "dragon",
+        "category": "special"
+    },
+    "83": {
+        "accuracy": 85,
+        "power": 35,
+        "pp": 15,
+        "type": "fire",
+        "category": "special"
+    },
+    "84": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "electric",
+        "category": "special"
+    },
+    "85": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "electric",
+        "category": "special"
+    },
+    "86": {
+        "accuracy": 90,
+        "power": null,
+        "pp": 20,
+        "type": "electric",
+        "category": "status"
+    },
+    "87": {
+        "accuracy": 70,
+        "power": 110,
+        "pp": 10,
+        "type": "electric",
+        "category": "special"
+    },
+    "88": {
+        "accuracy": 90,
+        "power": 50,
+        "pp": 15,
+        "type": "rock",
+        "category": "physical"
+    },
+    "89": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "90": {
+        "accuracy": 30,
+        "power": null,
+        "pp": 5,
+        "type": "ground",
+        "category": "physical"
+    },
+    "91": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "92": {
+        "accuracy": 90,
+        "power": null,
+        "pp": 10,
+        "type": "poison",
+        "category": "status"
+    },
+    "93": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 25,
+        "type": "psychic",
+        "category": "special"
+    },
+    "94": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "psychic",
+        "category": "special"
+    },
+    "95": {
+        "accuracy": 60,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "status"
+    },
+    "96": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "psychic",
+        "category": "status"
+    },
+    "97": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "psychic",
+        "category": "status"
+    },
+    "98": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "normal",
+        "category": "physical"
+    },
+    "99": {
+        "accuracy": 100,
+        "power": 20,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "100": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "status"
+    },
+    "101": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "ghost",
+        "category": "special"
+    },
+    "102": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "103": {
+        "accuracy": 85,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "104": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "105": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "106": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "107": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "108": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "109": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "ghost",
+        "category": "status"
+    },
+    "110": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "water",
+        "category": "status"
+    },
+    "111": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "112": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "status"
+    },
+    "113": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "psychic",
+        "category": "status"
+    },
+    "114": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "ice",
+        "category": "status"
+    },
+    "115": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "status"
+    },
+    "116": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "117": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "118": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "119": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "flying",
+        "category": "status"
+    },
+    "120": {
+        "accuracy": 100,
+        "power": 200,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "121": {
+        "accuracy": 75,
+        "power": 100,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "122": {
+        "accuracy": 100,
+        "power": 30,
+        "pp": 30,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "123": {
+        "accuracy": 70,
+        "power": 30,
+        "pp": 20,
+        "type": "poison",
+        "category": "special"
+    },
+    "124": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "poison",
+        "category": "special"
+    },
+    "125": {
+        "accuracy": 85,
+        "power": 65,
+        "pp": 20,
+        "type": "ground",
+        "category": "physical"
+    },
+    "126": {
+        "accuracy": 85,
+        "power": 110,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "127": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "water",
+        "category": "physical"
+    },
+    "128": {
+        "accuracy": 85,
+        "power": 35,
+        "pp": 15,
+        "type": "water",
+        "category": "physical"
+    },
+    "129": {
+        "accuracy": null,
+        "power": 60,
+        "pp": 20,
+        "type": "normal",
+        "category": "special"
+    },
+    "130": {
+        "accuracy": 100,
+        "power": 130,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "131": {
+        "accuracy": 100,
+        "power": 20,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "132": {
+        "accuracy": 100,
+        "power": 10,
+        "pp": 35,
+        "type": "normal",
+        "category": "physical"
+    },
+    "133": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "status"
+    },
+    "134": {
+        "accuracy": 80,
+        "power": null,
+        "pp": 15,
+        "type": "psychic",
+        "category": "status"
+    },
+    "135": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "136": {
+        "accuracy": 90,
+        "power": 130,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "137": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "138": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 15,
+        "type": "psychic",
+        "category": "special"
+    },
+    "139": {
+        "accuracy": 90,
+        "power": null,
+        "pp": 40,
+        "type": "poison",
+        "category": "status"
+    },
+    "140": {
+        "accuracy": 85,
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "141": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "bug",
+        "category": "physical"
+    },
+    "142": {
+        "accuracy": 75,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "143": {
+        "accuracy": 90,
+        "power": 140,
+        "pp": 5,
+        "type": "flying",
+        "category": "physical"
+    },
+    "144": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "145": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "water",
+        "category": "special"
+    },
+    "146": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "147": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "grass",
+        "category": "status"
+    },
+    "148": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "149": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "psychic",
+        "category": "special"
+    },
+    "150": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "151": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "poison",
+        "category": "status"
+    },
+    "152": {
+        "accuracy": 90,
+        "power": 100,
+        "pp": 10,
+        "type": "water",
+        "category": "physical"
+    },
+    "153": {
+        "accuracy": 100,
+        "power": 250,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "154": {
+        "accuracy": 80,
+        "power": 18,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "155": {
+        "accuracy": 90,
+        "power": 50,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "156": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "157": {
+        "accuracy": 90,
+        "power": 75,
+        "pp": 10,
+        "type": "rock",
+        "category": "physical"
+    },
+    "158": {
+        "accuracy": 90,
+        "power": 80,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "159": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "160": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "161": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "162": {
+        "accuracy": 90,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "163": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "164": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "165": {
+        "accuracy": null,
+        "power": 50,
+        "pp": 1,
+        "type": "normal",
+        "category": "physical"
+    },
+    "166": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "normal",
+        "category": "status"
+    },
+    "167": {
+        "accuracy": 90,
+        "power": 10,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "168": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 25,
+        "type": "dark",
+        "category": "physical"
+    },
+    "169": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "bug",
+        "category": "status"
+    },
+    "170": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "status"
+    },
+    "171": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "ghost",
+        "category": "status"
+    },
+    "172": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 25,
+        "type": "fire",
+        "category": "physical"
+    },
+    "173": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 15,
+        "type": "normal",
+        "category": "special"
+    },
+    "174": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "ghost",
+        "category": "status"
+    },
+    "175": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "176": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "177": {
+        "accuracy": 95,
+        "power": 100,
+        "pp": 5,
+        "type": "flying",
+        "category": "special"
+    },
+    "178": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 40,
+        "type": "grass",
+        "category": "status"
+    },
+    "179": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "180": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "ghost",
+        "category": "status"
+    },
+    "181": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 25,
+        "type": "ice",
+        "category": "special"
+    },
+    "182": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "183": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "184": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "185": {
+        "accuracy": null,
+        "power": 60,
+        "pp": 20,
+        "type": "dark",
+        "category": "physical"
+    },
+    "186": {
+        "accuracy": 75,
+        "power": null,
+        "pp": 10,
+        "type": "fairy",
+        "category": "status"
+    },
+    "187": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "188": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "poison",
+        "category": "special"
+    },
+    "189": {
+        "accuracy": 100,
+        "power": 20,
+        "pp": 10,
+        "type": "ground",
+        "category": "special"
+    },
+    "190": {
+        "accuracy": 85,
+        "power": 65,
+        "pp": 10,
+        "type": "water",
+        "category": "special"
+    },
+    "191": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "ground",
+        "category": "status"
+    },
+    "192": {
+        "accuracy": 50,
+        "power": 120,
+        "pp": 5,
+        "type": "electric",
+        "category": "special"
+    },
+    "193": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "194": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "ghost",
+        "category": "status"
+    },
+    "195": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "status"
+    },
+    "196": {
+        "accuracy": 95,
+        "power": 55,
+        "pp": 15,
+        "type": "ice",
+        "category": "special"
+    },
+    "197": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "fighting",
+        "category": "status"
+    },
+    "198": {
+        "accuracy": 90,
+        "power": 25,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "199": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "status"
+    },
+    "200": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "type": "dragon",
+        "category": "physical"
+    },
+    "201": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "rock",
+        "category": "status"
+    },
+    "202": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 10,
+        "type": "grass",
+        "category": "special"
+    },
+    "203": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "204": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "fairy",
+        "category": "status"
+    },
+    "205": {
+        "accuracy": 90,
+        "power": 30,
+        "pp": 20,
+        "type": "rock",
+        "category": "physical"
+    },
+    "206": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 40,
+        "type": "normal",
+        "category": "physical"
+    },
+    "207": {
+        "accuracy": 85,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "208": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "209": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "electric",
+        "category": "physical"
+    },
+    "210": {
+        "accuracy": 95,
+        "power": 40,
+        "pp": 20,
+        "type": "bug",
+        "category": "physical"
+    },
+    "211": {
+        "accuracy": 90,
+        "power": 70,
+        "pp": 25,
+        "type": "steel",
+        "category": "physical"
+    },
+    "212": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "status"
+    },
+    "213": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "214": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "215": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "status"
+    },
+    "216": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "217": {
+        "accuracy": 90,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "218": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "219": {
+        "accuracy": null,
+        "power": null,
+        "pp": 25,
+        "type": "normal",
+        "category": "status"
+    },
+    "220": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "221": {
+        "accuracy": 95,
+        "power": 100,
+        "pp": 5,
+        "type": "fire",
+        "category": "physical"
+    },
+    "222": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "type": "ground",
+        "category": "physical"
+    },
+    "223": {
+        "accuracy": 50,
+        "power": 100,
+        "pp": 5,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "224": {
+        "accuracy": 85,
+        "power": 120,
+        "pp": 10,
+        "type": "bug",
+        "category": "physical"
+    },
+    "225": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 20,
+        "type": "dragon",
+        "category": "special"
+    },
+    "226": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "227": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "status"
+    },
+    "228": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 20,
+        "type": "dark",
+        "category": "physical"
+    },
+    "229": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 40,
+        "type": "normal",
+        "category": "physical"
+    },
+    "230": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "231": {
+        "accuracy": 75,
+        "power": 100,
+        "pp": 15,
+        "type": "steel",
+        "category": "physical"
+    },
+    "232": {
+        "accuracy": 95,
+        "power": 50,
+        "pp": 35,
+        "type": "steel",
+        "category": "physical"
+    },
+    "233": {
+        "accuracy": null,
+        "power": 70,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "234": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "status"
+    },
+    "235": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "grass",
+        "category": "status"
+    },
+    "236": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "fairy",
+        "category": "status"
+    },
+    "237": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 15,
+        "type": "normal",
+        "category": "special"
+    },
+    "238": {
+        "accuracy": 80,
+        "power": 100,
+        "pp": 5,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "239": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 20,
+        "type": "dragon",
+        "category": "special"
+    },
+    "240": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "water",
+        "category": "status"
+    },
+    "241": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "fire",
+        "category": "status"
+    },
+    "242": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "dark",
+        "category": "physical"
+    },
+    "243": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "special"
+    },
+    "244": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "245": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "246": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 5,
+        "type": "rock",
+        "category": "special"
+    },
+    "247": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "ghost",
+        "category": "special"
+    },
+    "248": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "type": "psychic",
+        "category": "special"
+    },
+    "249": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 15,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "250": {
+        "accuracy": 85,
+        "power": 35,
+        "pp": 15,
+        "type": "water",
+        "category": "special"
+    },
+    "251": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "dark",
+        "category": "physical"
+    },
+    "252": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "253": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "254": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "255": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "256": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "257": {
+        "accuracy": 90,
+        "power": 95,
+        "pp": 10,
+        "type": "fire",
+        "category": "special"
+    },
+    "258": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "ice",
+        "category": "status"
+    },
+    "259": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "dark",
+        "category": "status"
+    },
+    "260": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "dark",
+        "category": "status"
+    },
+    "261": {
+        "accuracy": 85,
+        "power": null,
+        "pp": 15,
+        "type": "fire",
+        "category": "status"
+    },
+    "262": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "dark",
+        "category": "status"
+    },
+    "263": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "264": {
+        "accuracy": 100,
+        "power": 150,
+        "pp": 20,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "265": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "266": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "267": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "268": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "electric",
+        "category": "status"
+    },
+    "269": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "dark",
+        "category": "status"
+    },
+    "270": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "271": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "272": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "273": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "274": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "275": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "grass",
+        "category": "status"
+    },
+    "276": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 5,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "277": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "psychic",
+        "category": "status"
+    },
+    "278": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "279": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "280": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 15,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "281": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "282": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "dark",
+        "category": "physical"
+    },
+    "283": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "284": {
+        "accuracy": 100,
+        "power": 150,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "285": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "286": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "287": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "288": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "ghost",
+        "category": "status"
+    },
+    "289": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "dark",
+        "category": "status"
+    },
+    "290": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "291": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "water",
+        "category": "physical"
+    },
+    "292": {
+        "accuracy": 100,
+        "power": 15,
+        "pp": 20,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "293": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "294": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "bug",
+        "category": "status"
+    },
+    "295": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 5,
+        "type": "psychic",
+        "category": "special"
+    },
+    "296": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 5,
+        "type": "psychic",
+        "category": "special"
+    },
+    "297": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "flying",
+        "category": "status"
+    },
+    "298": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "299": {
+        "accuracy": 90,
+        "power": 85,
+        "pp": 10,
+        "type": "fire",
+        "category": "physical"
+    },
+    "300": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "category": "status"
+    },
+    "301": {
+        "accuracy": 90,
+        "power": 30,
+        "pp": 20,
+        "type": "ice",
+        "category": "physical"
+    },
+    "302": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 15,
+        "type": "grass",
+        "category": "physical"
+    },
+    "303": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "304": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "305": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 15,
+        "type": "poison",
+        "category": "physical"
+    },
+    "306": {
+        "accuracy": 95,
+        "power": 75,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "307": {
+        "accuracy": 90,
+        "power": 150,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "308": {
+        "accuracy": 90,
+        "power": 150,
+        "pp": 5,
+        "type": "water",
+        "category": "special"
+    },
+    "309": {
+        "accuracy": 90,
+        "power": 90,
+        "pp": 10,
+        "type": "steel",
+        "category": "physical"
+    },
+    "310": {
+        "accuracy": 100,
+        "power": 30,
+        "pp": 15,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "311": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "312": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "grass",
+        "category": "status"
+    },
+    "313": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "dark",
+        "category": "status"
+    },
+    "314": {
+        "accuracy": 95,
+        "power": 60,
+        "pp": 25,
+        "type": "flying",
+        "category": "special"
+    },
+    "315": {
+        "accuracy": 90,
+        "power": 130,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "316": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "317": {
+        "accuracy": 95,
+        "power": 60,
+        "pp": 15,
+        "type": "rock",
+        "category": "physical"
+    },
+    "318": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 5,
+        "type": "bug",
+        "category": "special"
+    },
+    "319": {
+        "accuracy": 85,
+        "power": null,
+        "pp": 40,
+        "type": "steel",
+        "category": "status"
+    },
+    "320": {
+        "accuracy": 55,
+        "power": null,
+        "pp": 15,
+        "type": "grass",
+        "category": "status"
+    },
+    "321": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "322": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "status"
+    },
+    "323": {
+        "accuracy": 100,
+        "power": 150,
+        "pp": 5,
+        "type": "water",
+        "category": "special"
+    },
+    "324": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 15,
+        "type": "bug",
+        "category": "special"
+    },
+    "325": {
+        "accuracy": null,
+        "power": 60,
+        "pp": 20,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "326": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 20,
+        "type": "psychic",
+        "category": "special"
+    },
+    "327": {
+        "accuracy": 90,
+        "power": 85,
+        "pp": 15,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "328": {
+        "accuracy": 85,
+        "power": 35,
+        "pp": 15,
+        "type": "ground",
+        "category": "physical"
+    },
+    "329": {
+        "accuracy": 30,
+        "power": null,
+        "pp": 5,
+        "type": "ice",
+        "category": "special"
+    },
+    "330": {
+        "accuracy": 85,
+        "power": 90,
+        "pp": 10,
+        "type": "water",
+        "category": "special"
+    },
+    "331": {
+        "accuracy": 100,
+        "power": 25,
+        "pp": 30,
+        "type": "grass",
+        "category": "physical"
+    },
+    "332": {
+        "accuracy": null,
+        "power": 60,
+        "pp": 20,
+        "type": "flying",
+        "category": "physical"
+    },
+    "333": {
+        "accuracy": 100,
+        "power": 25,
+        "pp": 30,
+        "type": "ice",
+        "category": "physical"
+    },
+    "334": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "steel",
+        "category": "status"
+    },
+    "335": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "status"
+    },
+    "336": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "337": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "dragon",
+        "category": "physical"
+    },
+    "338": {
+        "accuracy": 90,
+        "power": 150,
+        "pp": 5,
+        "type": "grass",
+        "category": "special"
+    },
+    "339": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "fighting",
+        "category": "status"
+    },
+    "340": {
+        "accuracy": 85,
+        "power": 85,
+        "pp": 5,
+        "type": "flying",
+        "category": "physical"
+    },
+    "341": {
+        "accuracy": 95,
+        "power": 55,
+        "pp": 15,
+        "type": "ground",
+        "category": "special"
+    },
+    "342": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 25,
+        "type": "poison",
+        "category": "physical"
+    },
+    "343": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 25,
+        "type": "normal",
+        "category": "physical"
+    },
+    "344": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 15,
+        "type": "electric",
+        "category": "physical"
+    },
+    "345": {
+        "accuracy": null,
+        "power": 60,
+        "pp": 20,
+        "type": "grass",
+        "category": "special"
+    },
+    "346": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "water",
+        "category": "status"
+    },
+    "347": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "status"
+    },
+    "348": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "grass",
+        "category": "physical"
+    },
+    "349": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "dragon",
+        "category": "status"
+    },
+    "350": {
+        "accuracy": 90,
+        "power": 25,
+        "pp": 10,
+        "type": "rock",
+        "category": "physical"
+    },
+    "351": {
+        "accuracy": null,
+        "power": 60,
+        "pp": 20,
+        "type": "electric",
+        "category": "special"
+    },
+    "352": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 20,
+        "type": "water",
+        "category": "special"
+    },
+    "353": {
+        "accuracy": 100,
+        "power": 140,
+        "pp": 5,
+        "type": "steel",
+        "category": "special"
+    },
+    "354": {
+        "accuracy": 90,
+        "power": 140,
+        "pp": 5,
+        "type": "psychic",
+        "category": "special"
+    },
+    "355": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "flying",
+        "category": "status"
+    },
+    "356": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "psychic",
+        "category": "status"
+    },
+    "357": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "psychic",
+        "category": "status"
+    },
+    "358": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "359": {
+        "accuracy": 90,
+        "power": 100,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "360": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 5,
+        "type": "steel",
+        "category": "physical"
+    },
+    "361": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "362": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 10,
+        "type": "water",
+        "category": "special"
+    },
+    "363": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "364": {
+        "accuracy": 100,
+        "power": 30,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "365": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 20,
+        "type": "flying",
+        "category": "physical"
+    },
+    "366": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "flying",
+        "category": "status"
+    },
+    "367": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "368": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "steel",
+        "category": "physical"
+    },
+    "369": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "bug",
+        "category": "physical"
+    },
+    "370": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 5,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "371": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 10,
+        "type": "dark",
+        "category": "physical"
+    },
+    "372": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 10,
+        "type": "dark",
+        "category": "physical"
+    },
+    "373": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "dark",
+        "category": "status"
+    },
+    "374": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "dark",
+        "category": "physical"
+    },
+    "375": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "376": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "special"
+    },
+    "377": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "psychic",
+        "category": "status"
+    },
+    "378": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "special"
+    },
+    "379": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "380": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "poison",
+        "category": "status"
+    },
+    "381": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "382": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "383": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "384": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "385": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "386": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 5,
+        "type": "dark",
+        "category": "physical"
+    },
+    "387": {
+        "accuracy": 100,
+        "power": 140,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "388": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "grass",
+        "category": "status"
+    },
+    "389": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 5,
+        "type": "dark",
+        "category": "physical"
+    },
+    "390": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "poison",
+        "category": "status"
+    },
+    "391": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "392": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "water",
+        "category": "status"
+    },
+    "393": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "electric",
+        "category": "status"
+    },
+    "394": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 15,
+        "type": "fire",
+        "category": "physical"
+    },
+    "395": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "396": {
+        "accuracy": null,
+        "power": 80,
+        "pp": 20,
+        "type": "fighting",
+        "category": "special"
+    },
+    "397": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "rock",
+        "category": "status"
+    },
+    "398": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 20,
+        "type": "poison",
+        "category": "physical"
+    },
+    "399": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "dark",
+        "category": "special"
+    },
+    "400": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 15,
+        "type": "dark",
+        "category": "physical"
+    },
+    "401": {
+        "accuracy": 90,
+        "power": 90,
+        "pp": 10,
+        "type": "water",
+        "category": "physical"
+    },
+    "402": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "grass",
+        "category": "physical"
+    },
+    "403": {
+        "accuracy": 95,
+        "power": 75,
+        "pp": 15,
+        "type": "flying",
+        "category": "special"
+    },
+    "404": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "bug",
+        "category": "physical"
+    },
+    "405": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "bug",
+        "category": "special"
+    },
+    "406": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 10,
+        "type": "dragon",
+        "category": "special"
+    },
+    "407": {
+        "accuracy": 75,
+        "power": 100,
+        "pp": 10,
+        "type": "dragon",
+        "category": "physical"
+    },
+    "408": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 20,
+        "type": "rock",
+        "category": "special"
+    },
+    "409": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "410": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "fighting",
+        "category": "special"
+    },
+    "411": {
+        "accuracy": 70,
+        "power": 120,
+        "pp": 5,
+        "type": "fighting",
+        "category": "special"
+    },
+    "412": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "grass",
+        "category": "special"
+    },
+    "413": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 15,
+        "type": "flying",
+        "category": "physical"
+    },
+    "414": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "ground",
+        "category": "special"
+    },
+    "415": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "dark",
+        "category": "status"
+    },
+    "416": {
+        "accuracy": 90,
+        "power": 150,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "417": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "dark",
+        "category": "status"
+    },
+    "418": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "steel",
+        "category": "physical"
+    },
+    "419": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 10,
+        "type": "ice",
+        "category": "physical"
+    },
+    "420": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "ice",
+        "category": "physical"
+    },
+    "421": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 15,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "422": {
+        "accuracy": 95,
+        "power": 65,
+        "pp": 15,
+        "type": "electric",
+        "category": "physical"
+    },
+    "423": {
+        "accuracy": 95,
+        "power": 65,
+        "pp": 15,
+        "type": "ice",
+        "category": "physical"
+    },
+    "424": {
+        "accuracy": 95,
+        "power": 65,
+        "pp": 15,
+        "type": "fire",
+        "category": "physical"
+    },
+    "425": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "426": {
+        "accuracy": 85,
+        "power": 65,
+        "pp": 10,
+        "type": "ground",
+        "category": "special"
+    },
+    "427": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "psychic",
+        "category": "physical"
+    },
+    "428": {
+        "accuracy": 90,
+        "power": 80,
+        "pp": 15,
+        "type": "psychic",
+        "category": "physical"
+    },
+    "429": {
+        "accuracy": 85,
+        "power": 65,
+        "pp": 10,
+        "type": "steel",
+        "category": "special"
+    },
+    "430": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "steel",
+        "category": "special"
+    },
+    "431": {
+        "accuracy": 85,
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "432": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "flying",
+        "category": "status"
+    },
+    "433": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "psychic",
+        "category": "status"
+    },
+    "434": {
+        "accuracy": 90,
+        "power": 130,
+        "pp": 5,
+        "type": "dragon",
+        "category": "special"
+    },
+    "435": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "electric",
+        "category": "special"
+    },
+    "436": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "fire",
+        "category": "special"
+    },
+    "437": {
+        "accuracy": 90,
+        "power": 130,
+        "pp": 5,
+        "type": "grass",
+        "category": "special"
+    },
+    "438": {
+        "accuracy": 85,
+        "power": 120,
+        "pp": 10,
+        "type": "grass",
+        "category": "physical"
+    },
+    "439": {
+        "accuracy": 90,
+        "power": 150,
+        "pp": 5,
+        "type": "rock",
+        "category": "physical"
+    },
+    "440": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "poison",
+        "category": "physical"
+    },
+    "441": {
+        "accuracy": 80,
+        "power": 120,
+        "pp": 5,
+        "type": "poison",
+        "category": "physical"
+    },
+    "442": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "steel",
+        "category": "physical"
+    },
+    "443": {
+        "accuracy": null,
+        "power": 60,
+        "pp": 20,
+        "type": "steel",
+        "category": "physical"
+    },
+    "444": {
+        "accuracy": 80,
+        "power": 100,
+        "pp": 5,
+        "type": "rock",
+        "category": "physical"
+    },
+    "445": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "446": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "rock",
+        "category": "status"
+    },
+    "447": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "grass",
+        "category": "special"
+    },
+    "448": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "flying",
+        "category": "special"
+    },
+    "449": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "450": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 20,
+        "type": "bug",
+        "category": "physical"
+    },
+    "451": {
+        "accuracy": 90,
+        "power": 50,
+        "pp": 10,
+        "type": "electric",
+        "category": "special"
+    },
+    "452": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 15,
+        "type": "grass",
+        "category": "physical"
+    },
+    "453": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 20,
+        "type": "water",
+        "category": "physical"
+    },
+    "454": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "bug",
+        "category": "physical"
+    },
+    "455": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "bug",
+        "category": "status"
+    },
+    "456": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "bug",
+        "category": "status"
+    },
+    "457": {
+        "accuracy": 80,
+        "power": 150,
+        "pp": 5,
+        "type": "rock",
+        "category": "physical"
+    },
+    "458": {
+        "accuracy": 90,
+        "power": 35,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "459": {
+        "accuracy": 90,
+        "power": 150,
+        "pp": 5,
+        "type": "dragon",
+        "category": "special"
+    },
+    "460": {
+        "accuracy": 95,
+        "power": 100,
+        "pp": 5,
+        "type": "dragon",
+        "category": "special"
+    },
+    "461": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "462": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "463": {
+        "accuracy": 75,
+        "power": 100,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "464": {
+        "accuracy": 50,
+        "power": null,
+        "pp": 10,
+        "type": "dark",
+        "category": "status"
+    },
+    "465": {
+        "accuracy": 85,
+        "power": 120,
+        "pp": 5,
+        "type": "grass",
+        "category": "special"
+    },
+    "466": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 5,
+        "type": "ghost",
+        "category": "special"
+    },
+    "467": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 5,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "468": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "dark",
+        "category": "status"
+    },
+    "469": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "rock",
+        "category": "status"
+    },
+    "470": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "471": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "472": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "473": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "psychic",
+        "category": "special"
+    },
+    "474": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 10,
+        "type": "poison",
+        "category": "special"
+    },
+    "475": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "steel",
+        "category": "status"
+    },
+    "476": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "bug",
+        "category": "status"
+    },
+    "477": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "psychic",
+        "category": "status"
+    },
+    "478": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "479": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 15,
+        "type": "rock",
+        "category": "physical"
+    },
+    "480": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "481": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 15,
+        "type": "fire",
+        "category": "special"
+    },
+    "482": {
+        "accuracy": 100,
+        "power": 95,
+        "pp": 10,
+        "type": "poison",
+        "category": "special"
+    },
+    "483": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "bug",
+        "category": "status"
+    },
+    "484": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "steel",
+        "category": "physical"
+    },
+    "485": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 10,
+        "type": "psychic",
+        "category": "special"
+    },
+    "486": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "electric",
+        "category": "special"
+    },
+    "487": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "water",
+        "category": "status"
+    },
+    "488": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 20,
+        "type": "fire",
+        "category": "physical"
+    },
+    "489": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "poison",
+        "category": "status"
+    },
+    "490": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "491": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 20,
+        "type": "poison",
+        "category": "special"
+    },
+    "492": {
+        "accuracy": 100,
+        "power": 95,
+        "pp": 15,
+        "type": "dark",
+        "category": "physical"
+    },
+    "493": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "494": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "495": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "496": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 15,
+        "type": "normal",
+        "category": "special"
+    },
+    "497": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 15,
+        "type": "normal",
+        "category": "special"
+    },
+    "498": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "499": {
+        "accuracy": null,
+        "power": 50,
+        "pp": 15,
+        "type": "poison",
+        "category": "special"
+    },
+    "500": {
+        "accuracy": 100,
+        "power": 20,
+        "pp": 10,
+        "type": "psychic",
+        "category": "special"
+    },
+    "501": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "fighting",
+        "category": "status"
+    },
+    "502": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "psychic",
+        "category": "status"
+    },
+    "503": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "water",
+        "category": "special"
+    },
+    "504": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "505": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "506": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 10,
+        "type": "ghost",
+        "category": "special"
+    },
+    "507": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 10,
+        "type": "flying",
+        "category": "physical"
+    },
+    "508": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "steel",
+        "category": "status"
+    },
+    "509": {
+        "accuracy": 90,
+        "power": 60,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "510": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 15,
+        "type": "fire",
+        "category": "special"
+    },
+    "511": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "dark",
+        "category": "status"
+    },
+    "512": {
+        "accuracy": 100,
+        "power": 55,
+        "pp": 15,
+        "type": "flying",
+        "category": "physical"
+    },
+    "513": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "514": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 5,
+        "type": "normal",
+        "category": "physical"
+    },
+    "515": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 5,
+        "type": "fighting",
+        "category": "special"
+    },
+    "516": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "517": {
+        "accuracy": 50,
+        "power": 100,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "518": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "water",
+        "category": "special"
+    },
+    "519": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "fire",
+        "category": "special"
+    },
+    "520": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "grass",
+        "category": "special"
+    },
+    "521": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "electric",
+        "category": "special"
+    },
+    "522": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 20,
+        "type": "bug",
+        "category": "special"
+    },
+    "523": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 20,
+        "type": "ground",
+        "category": "physical"
+    },
+    "524": {
+        "accuracy": 90,
+        "power": 60,
+        "pp": 10,
+        "type": "ice",
+        "category": "special"
+    },
+    "525": {
+        "accuracy": 90,
+        "power": 60,
+        "pp": 10,
+        "type": "dragon",
+        "category": "physical"
+    },
+    "526": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "527": {
+        "accuracy": 95,
+        "power": 55,
+        "pp": 15,
+        "type": "electric",
+        "category": "special"
+    },
+    "528": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "electric",
+        "category": "physical"
+    },
+    "529": {
+        "accuracy": 95,
+        "power": 80,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "530": {
+        "accuracy": 90,
+        "power": 40,
+        "pp": 15,
+        "type": "dragon",
+        "category": "physical"
+    },
+    "531": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 25,
+        "type": "psychic",
+        "category": "physical"
+    },
+    "532": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 10,
+        "type": "grass",
+        "category": "physical"
+    },
+    "533": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "534": {
+        "accuracy": 95,
+        "power": 75,
+        "pp": 10,
+        "type": "water",
+        "category": "physical"
+    },
+    "535": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "fire",
+        "category": "physical"
+    },
+    "536": {
+        "accuracy": 90,
+        "power": 65,
+        "pp": 10,
+        "type": "grass",
+        "category": "special"
+    },
+    "537": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "bug",
+        "category": "physical"
+    },
+    "538": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "grass",
+        "category": "status"
+    },
+    "539": {
+        "accuracy": 95,
+        "power": 85,
+        "pp": 10,
+        "type": "dark",
+        "category": "special"
+    },
+    "540": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 10,
+        "type": "psychic",
+        "category": "special"
+    },
+    "541": {
+        "accuracy": 85,
+        "power": 25,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "542": {
+        "accuracy": 70,
+        "power": 110,
+        "pp": 10,
+        "type": "flying",
+        "category": "special"
+    },
+    "543": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "category": "physical"
+    },
+    "544": {
+        "accuracy": 85,
+        "power": 50,
+        "pp": 15,
+        "type": "steel",
+        "category": "physical"
+    },
+    "545": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "546": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 5,
+        "type": "normal",
+        "category": "special"
+    },
+    "547": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "548": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 10,
+        "type": "fighting",
+        "category": "special"
+    },
+    "549": {
+        "accuracy": 95,
+        "power": 65,
+        "pp": 10,
+        "type": "ice",
+        "category": "special"
+    },
+    "550": {
+        "accuracy": 85,
+        "power": 130,
+        "pp": 5,
+        "type": "electric",
+        "category": "physical"
+    },
+    "551": {
+        "accuracy": 85,
+        "power": 130,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "552": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "fire",
+        "category": "special"
+    },
+    "553": {
+        "accuracy": 90,
+        "power": 140,
+        "pp": 5,
+        "type": "ice",
+        "category": "physical"
+    },
+    "554": {
+        "accuracy": 90,
+        "power": 140,
+        "pp": 5,
+        "type": "ice",
+        "category": "special"
+    },
+    "555": {
+        "accuracy": 95,
+        "power": 55,
+        "pp": 15,
+        "type": "dark",
+        "category": "special"
+    },
+    "556": {
+        "accuracy": 90,
+        "power": 85,
+        "pp": 10,
+        "type": "ice",
+        "category": "physical"
+    },
+    "557": {
+        "accuracy": 95,
+        "power": 180,
+        "pp": 5,
+        "type": "fire",
+        "category": "physical"
+    },
+    "558": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "559": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 5,
+        "type": "electric",
+        "category": "physical"
+    },
+    "560": {
+        "accuracy": 95,
+        "power": 100,
+        "pp": 10,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "561": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "fighting",
+        "category": "status"
+    },
+    "562": {
+        "accuracy": 90,
+        "power": 120,
+        "pp": 10,
+        "type": "poison",
+        "category": "special"
+    },
+    "563": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "ground",
+        "category": "status"
+    },
+    "564": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "bug",
+        "category": "status"
+    },
+    "565": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 25,
+        "type": "bug",
+        "category": "physical"
+    },
+    "566": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "567": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "ghost",
+        "category": "status"
+    },
+    "568": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "569": {
+        "accuracy": null,
+        "power": null,
+        "pp": 25,
+        "type": "electric",
+        "category": "status"
+    },
+    "570": {
+        "accuracy": 100,
+        "power": 65,
+        "pp": 20,
+        "type": "electric",
+        "category": "special"
+    },
+    "571": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "grass",
+        "category": "status"
+    },
+    "572": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "grass",
+        "category": "physical"
+    },
+    "573": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 20,
+        "type": "ice",
+        "category": "special"
+    },
+    "574": {
+        "accuracy": null,
+        "power": 40,
+        "pp": 15,
+        "type": "fairy",
+        "category": "special"
+    },
+    "575": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "dark",
+        "category": "status"
+    },
+    "576": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "dark",
+        "category": "status"
+    },
+    "577": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 10,
+        "type": "fairy",
+        "category": "special"
+    },
+    "578": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "fairy",
+        "category": "status"
+    },
+    "579": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "fairy",
+        "category": "status"
+    },
+    "580": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "grass",
+        "category": "status"
+    },
+    "581": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "fairy",
+        "category": "status"
+    },
+    "582": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "electric",
+        "category": "status"
+    },
+    "583": {
+        "accuracy": 90,
+        "power": 90,
+        "pp": 10,
+        "type": "fairy",
+        "category": "physical"
+    },
+    "584": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 30,
+        "type": "fairy",
+        "category": "special"
+    },
+    "585": {
+        "accuracy": 100,
+        "power": 95,
+        "pp": 15,
+        "type": "fairy",
+        "category": "special"
+    },
+    "586": {
+        "accuracy": 100,
+        "power": 140,
+        "pp": 10,
+        "type": "normal",
+        "category": "special"
+    },
+    "587": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "fairy",
+        "category": "status"
+    },
+    "588": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "steel",
+        "category": "status"
+    },
+    "589": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "590": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "591": {
+        "accuracy": 95,
+        "power": 100,
+        "pp": 5,
+        "type": "rock",
+        "category": "physical"
+    },
+    "592": {
+        "accuracy": 95,
+        "power": 110,
+        "pp": 5,
+        "type": "water",
+        "category": "special"
+    },
+    "593": {
+        "accuracy": null,
+        "power": 80,
+        "pp": 5,
+        "type": "psychic",
+        "category": "special"
+    },
+    "594": {
+        "accuracy": 100,
+        "power": 15,
+        "pp": 20,
+        "type": "water",
+        "category": "special"
+    },
+    "595": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 10,
+        "type": "fire",
+        "category": "special"
+    },
+    "596": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "grass",
+        "category": "status"
+    },
+    "597": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "fairy",
+        "category": "status"
+    },
+    "598": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "electric",
+        "category": "status"
+    },
+    "599": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "poison",
+        "category": "status"
+    },
+    "600": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "bug",
+        "category": "status"
+    },
+    "601": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "fairy",
+        "category": "status"
+    },
+    "602": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "electric",
+        "category": "status"
+    },
+    "603": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "604": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "electric",
+        "category": "status"
+    },
+    "605": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "fairy",
+        "category": "special"
+    },
+    "606": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "607": {
+        "accuracy": null,
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "category": "status"
+    },
+    "608": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 30,
+        "type": "fairy",
+        "category": "status"
+    },
+    "609": {
+        "accuracy": 100,
+        "power": 20,
+        "pp": 20,
+        "type": "electric",
+        "category": "physical"
+    },
+    "610": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 40,
+        "type": "normal",
+        "category": "physical"
+    },
+    "611": {
+        "accuracy": 100,
+        "power": 20,
+        "pp": 20,
+        "type": "bug",
+        "category": "special"
+    },
+    "612": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 20,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "613": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "flying",
+        "category": "special"
+    },
+    "614": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "615": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "616": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "617": {
+        "accuracy": 90,
+        "power": 140,
+        "pp": 5,
+        "type": "fairy",
+        "category": "special"
+    },
+    "618": {
+        "accuracy": 85,
+        "power": 110,
+        "pp": 10,
+        "type": "water",
+        "category": "special"
+    },
+    "619": {
+        "accuracy": 85,
+        "power": 120,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "620": {
+        "accuracy": 100,
+        "power": 120,
+        "pp": 5,
+        "type": "flying",
+        "category": "physical"
+    },
+    "621": {
+        "accuracy": null,
+        "power": 100,
+        "pp": 5,
+        "type": "dark",
+        "category": "physical"
+    },
+    "622": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "normal",
+        "category": "physical"
+    },
+    "623": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "normal",
+        "category": "special"
+    },
+    "624": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "fighting",
+        "category": "physical"
+    },
+    "625": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "fighting",
+        "category": "special"
+    },
+    "626": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "flying",
+        "category": "physical"
+    },
+    "627": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "flying",
+        "category": "special"
+    },
+    "628": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "poison",
+        "category": "physical"
+    },
+    "629": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "poison",
+        "category": "special"
+    },
+    "630": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "ground",
+        "category": "physical"
+    },
+    "631": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "ground",
+        "category": "special"
+    },
+    "632": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "rock",
+        "category": "physical"
+    },
+    "633": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "rock",
+        "category": "special"
+    },
+    "634": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "bug",
+        "category": "physical"
+    },
+    "635": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "bug",
+        "category": "special"
+    },
+    "636": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "637": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "ghost",
+        "category": "special"
+    },
+    "638": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "steel",
+        "category": "physical"
+    },
+    "639": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "steel",
+        "category": "special"
+    },
+    "640": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "fire",
+        "category": "physical"
+    },
+    "641": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "fire",
+        "category": "special"
+    },
+    "642": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "water",
+        "category": "physical"
+    },
+    "643": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "water",
+        "category": "special"
+    },
+    "644": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "grass",
+        "category": "physical"
+    },
+    "645": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "grass",
+        "category": "special"
+    },
+    "646": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "electric",
+        "category": "physical"
+    },
+    "647": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "electric",
+        "category": "special"
+    },
+    "648": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "psychic",
+        "category": "physical"
+    },
+    "649": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "psychic",
+        "category": "special"
+    },
+    "650": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "ice",
+        "category": "physical"
+    },
+    "651": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "ice",
+        "category": "special"
+    },
+    "652": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "dragon",
+        "category": "physical"
+    },
+    "653": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "dragon",
+        "category": "special"
+    },
+    "654": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "dark",
+        "category": "physical"
+    },
+    "655": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "dark",
+        "category": "special"
+    },
+    "656": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "fairy",
+        "category": "physical"
+    },
+    "657": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "fairy",
+        "category": "special"
+    },
+    "658": {
+        "accuracy": null,
+        "power": 210,
+        "pp": 1,
+        "type": "electric",
+        "category": "physical"
+    },
+    "659": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "ground",
+        "category": "status"
+    },
+    "660": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "bug",
+        "category": "physical"
+    },
+    "661": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "poison",
+        "category": "status"
+    },
+    "662": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "663": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 10,
+        "type": "dark",
+        "category": "physical"
+    },
+    "664": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "water",
+        "category": "special"
+    },
+    "665": {
+        "accuracy": 90,
+        "power": 100,
+        "pp": 10,
+        "type": "ice",
+        "category": "physical"
+    },
+    "666": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "fairy",
+        "category": "status"
+    },
+    "667": {
+        "accuracy": 95,
+        "power": 95,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "668": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "grass",
+        "category": "status"
+    },
+    "669": {
+        "accuracy": 100,
+        "power": 125,
+        "pp": 10,
+        "type": "grass",
+        "category": "physical"
+    },
+    "670": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 40,
+        "type": "grass",
+        "category": "physical"
+    },
+    "671": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "category": "status"
+    },
+    "672": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "poison",
+        "category": "status"
+    },
+    "673": {
+        "accuracy": null,
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "category": "status"
+    },
+    "674": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "steel",
+        "category": "status"
+    },
+    "675": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "dark",
+        "category": "physical"
+    },
+    "676": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "bug",
+        "category": "special"
+    },
+    "677": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 20,
+        "type": "steel",
+        "category": "physical"
+    },
+    "678": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "679": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "bug",
+        "category": "physical"
+    },
+    "680": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "fire",
+        "category": "physical"
+    },
+    "681": {
+        "accuracy": 100,
+        "power": 20,
+        "pp": 10,
+        "type": "dark",
+        "category": "physical"
+    },
+    "682": {
+        "accuracy": 100,
+        "power": 130,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "683": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "psychic",
+        "category": "status"
+    },
+    "684": {
+        "accuracy": null,
+        "power": 70,
+        "pp": 10,
+        "type": "steel",
+        "category": "physical"
+    },
+    "685": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "poison",
+        "category": "status"
+    },
+    "686": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "normal",
+        "category": "special"
+    },
+    "687": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 10,
+        "type": "dragon",
+        "category": "special"
+    },
+    "688": {
+        "accuracy": 100,
+        "power": 70,
+        "pp": 15,
+        "type": "grass",
+        "category": "physical"
+    },
+    "689": {
+        "accuracy": null,
+        "power": null,
+        "pp": 15,
+        "type": "psychic",
+        "category": "status"
+    },
+    "690": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 15,
+        "type": "flying",
+        "category": "physical"
+    },
+    "691": {
+        "accuracy": 100,
+        "power": 110,
+        "pp": 5,
+        "type": "dragon",
+        "category": "special"
+    },
+    "692": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "dragon",
+        "category": "physical"
+    },
+    "693": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 20,
+        "type": "dark",
+        "category": "physical"
+    },
+    "694": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "ice",
+        "category": "status"
+    },
+    "695": {
+        "accuracy": null,
+        "power": 180,
+        "pp": 1,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "696": {
+        "accuracy": null,
+        "power": 180,
+        "pp": 1,
+        "type": "dark",
+        "category": "physical"
+    },
+    "697": {
+        "accuracy": null,
+        "power": 195,
+        "pp": 1,
+        "type": "water",
+        "category": "special"
+    },
+    "698": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "fairy",
+        "category": "special"
+    },
+    "699": {
+        "accuracy": null,
+        "power": 195,
+        "pp": 1,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "700": {
+        "accuracy": null,
+        "power": 175,
+        "pp": 1,
+        "type": "electric",
+        "category": "special"
+    },
+    "701": {
+        "accuracy": null,
+        "power": 210,
+        "pp": 1,
+        "type": "normal",
+        "category": "physical"
+    },
+    "702": {
+        "accuracy": null,
+        "power": null,
+        "pp": 1,
+        "type": "normal",
+        "category": "status"
+    },
+    "703": {
+        "accuracy": null,
+        "power": 185,
+        "pp": 1,
+        "type": "psychic",
+        "category": "special"
+    },
+    "704": {
+        "accuracy": 100,
+        "power": 150,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "705": {
+        "accuracy": 90,
+        "power": 130,
+        "pp": 5,
+        "type": "fairy",
+        "category": "special"
+    },
+    "706": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 10,
+        "type": "psychic",
+        "category": "physical"
+    },
+    "707": {
+        "accuracy": 100,
+        "power": 75,
+        "pp": 10,
+        "type": "ground",
+        "category": "physical"
+    },
+    "708": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 10,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "709": {
+        "accuracy": 100,
+        "power": 40,
+        "pp": 20,
+        "type": "rock",
+        "category": "physical"
+    },
+    "710": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 10,
+        "type": "water",
+        "category": "physical"
+    },
+    "711": {
+        "accuracy": 100,
+        "power": 160,
+        "pp": 10,
+        "type": "psychic",
+        "category": "special"
+    },
+    "712": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "ghost",
+        "category": "physical"
+    },
+    "713": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 5,
+        "type": "steel",
+        "category": "physical"
+    },
+    "714": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 5,
+        "type": "ghost",
+        "category": "special"
+    },
+    "715": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "status"
+    },
+    "716": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "electric",
+        "category": "physical"
+    },
+    "717": {
+        "accuracy": 90,
+        "power": null,
+        "pp": 10,
+        "type": "fairy",
+        "category": "special"
+    },
+    "718": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 10,
+        "type": "normal",
+        "category": "physical"
+    },
+    "719": {
+        "accuracy": null,
+        "power": 195,
+        "pp": 1,
+        "type": "electric",
+        "category": "special"
+    },
+    "720": {
+        "accuracy": 100,
+        "power": 150,
+        "pp": 5,
+        "type": "fire",
+        "category": "special"
+    },
+    "721": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 15,
+        "type": "electric",
+        "category": "physical"
+    },
+    "722": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 5,
+        "type": "psychic",
+        "category": "special"
+    },
+    "723": {
+        "accuracy": null,
+        "power": 200,
+        "pp": 1,
+        "type": "psychic",
+        "category": "special"
+    },
+    "724": {
+        "accuracy": null,
+        "power": 200,
+        "pp": 1,
+        "type": "steel",
+        "category": "physical"
+    },
+    "725": {
+        "accuracy": null,
+        "power": 200,
+        "pp": 1,
+        "type": "ghost",
+        "category": "special"
+    },
+    "726": {
+        "accuracy": null,
+        "power": 190,
+        "pp": 1,
+        "type": "fairy",
+        "category": "physical"
+    },
+    "727": {
+        "accuracy": null,
+        "power": 190,
+        "pp": 1,
+        "type": "rock",
+        "category": "physical"
+    },
+    "728": {
+        "accuracy": null,
+        "power": 185,
+        "pp": 1,
+        "type": "dragon",
+        "category": "special"
+    },
+    "729": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 15,
+        "type": "electric",
+        "category": "physical"
+    },
+    "730": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "water",
+        "category": "special"
+    },
+    "731": {
+        "accuracy": 95,
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "category": "physical"
+    },
+    "732": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "electric",
+        "category": "special"
+    },
+    "733": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "water",
+        "category": "special"
+    },
+    "734": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "electric",
+        "category": "special"
+    },
+    "735": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "fire",
+        "category": "physical"
+    },
+    "736": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "psychic",
+        "category": "special"
+    },
+    "737": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "dark",
+        "category": "special"
+    },
+    "738": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "grass",
+        "category": "physical"
+    },
+    "739": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "ice",
+        "category": "special"
+    },
+    "740": {
+        "accuracy": 100,
+        "power": 90,
+        "pp": 15,
+        "type": "fairy",
+        "category": "special"
+    },
+    "741": {
+        "accuracy": null,
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "category": "physical"
+    },
+    "742": {
+        "accuracy": 100,
+        "power": 60,
+        "pp": 5,
+        "type": "steel",
+        "category": "physical"
+    },
+    "743": {
+        "accuracy": null,
+        "power": null,
+        "pp": null,
+        "type": "normal",
+        "category": "status"
+    },
+    "744": {
+        "accuracy": 100,
+        "power": 100,
+        "pp": 5,
+        "type": "dragon",
+        "category": "special"
+    },
+    "745": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 15,
+        "type": "water",
+        "category": "special"
+    },
+    "746": {
+        "accuracy": 100,
+        "power": 80,
+        "pp": 10,
+        "type": "dark",
+        "category": "physical"
+    },
+    "747": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "748": {
+        "accuracy": null,
+        "power": null,
+        "pp": 5,
+        "type": "fighting",
+        "category": "status"
+    },
+    "749": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "rock",
+        "category": "status"
+    },
+    "750": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 20,
+        "type": "psychic",
+        "category": "status"
+    },
+    "751": {
+        "accuracy": 100,
+        "power": 50,
+        "pp": 10,
+        "type": "dragon",
+        "category": "physical"
+    },
+    "752": {
+        "accuracy": null,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    },
+    "753": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 15,
+        "type": "fighting",
+        "category": "status"
+    },
+    "754": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 10,
+        "type": "electric",
+        "category": "physical"
+    },
+    "755": {
+        "accuracy": 100,
+        "power": 85,
+        "pp": 10,
+        "type": "water",
+        "category": "physical"
+    },
+    "756": {
+        "accuracy": 100,
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "category": "status"
+    }
+}
