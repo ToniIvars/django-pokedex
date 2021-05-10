@@ -39,10 +39,7 @@ def pokemon(request, name):
         return redirect('pokedex_index')
 
     res = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_id}/')   
-    # evolution_res = requests.get(f'https://pokeapi.co/api/v2/evolution-chain/{pokemon_id}/')
-
     data = res.json()
-    # evolution_data = evolution_res.json()
 
     sprite = data['sprites']['other']['official-artwork']['front_default']
     abilities = get_abilities(data)
