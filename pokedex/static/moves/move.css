@@ -12,6 +12,17 @@
     width: 3rem;
 }
 
+.responsive-table {
+    width: 75%;
+}
+
+@media (max-width: 768px) {
+    .responsive-table {
+        width: 100%;
+        overflow: auto;
+    }
+}
+
 .type {
     padding: 0.4rem 0.8rem;
     color: white;

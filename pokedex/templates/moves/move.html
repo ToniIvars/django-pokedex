@@ -6,5 +6,34 @@
 {% block script %} <script src="{% static 'moves/move.js' %}"></script> {% endblock %}
 
 {% block content %}
-<h1 id="move-title">{{data.name|capfirst}}</h1>
+<h1 id="move-title" class="mb-3">{{data.name|capfirst}}</h1>
+
+<div class="responsive-table">
+    <table class="table text-center">
+        <thead>
+            <tr>
+                <th>Power</th>
+                <th>Type</th>
+                <th>Category</th>
+                <th>Accuracy</th>
+                <th>PP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="align-middle">{% if data.move_data.power %}{{data.move_data.power}} {% else %} --- {% endif %}</td>
+                <td class="align-middle"><span class="type type-{{data.move_data.type}}">{{data.move_data.type|upper}}</span></td>
+                <td class="align-middle"><img class="category-images" src="{% static data.move_data.category|add:'.png' %}" alt="{{data.move_data.category|capfirst}}"></td>
+                <td class="align-middle">{% if data.move_data.accuracy %}{{data.move_data.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{data.move_data.pp}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 class="subtitle text-center mt-4">Description</h2>
+<p class="text-justify">{{data.move_data.description}}</p>
+
+<h2 class="subtitle text-center mt-4">Effect</h2>
+<p class="text-justify">{{data.move_data.effect}}</p>
 {% endblock %}
