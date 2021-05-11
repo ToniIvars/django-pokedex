@@ -44,7 +44,7 @@
                 <td class="align-middle">{{move.level}}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
-                <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+                <td class="align-middle"><img class="category-images" src="{% static move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
                 <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
                 <td class="align-middle">{{move.pp}}</td>
             </tr>
@@ -72,7 +72,7 @@
                 <td class="text-left">{{move.name}}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
-                <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+                <td class="align-middle"><img class="category-images" src="{% static move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
                 <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
                 <td class="align-middle">{{move.pp}}</td>
             </tr>
@@ -101,7 +101,7 @@
                 <td class="text-left">{{move.name}}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
-                <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+                <td class="align-middle"><img class="category-images" src="{% static move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
                 <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
                 <td class="align-middle">{{move.pp}}</td>
             </tr>
@@ -130,7 +130,7 @@
                 <td class="text-left">{{move.name}}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
-                <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+                <td class="align-middle"><img class="category-images" src="{% static move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
                 <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
                 <td class="align-middle">{{move.pp}}</td>
             </tr>
