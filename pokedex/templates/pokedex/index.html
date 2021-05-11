@@ -1,7 +1,39 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %} Index {% endblock %}
+{% block style %} <link rel="stylesheet" href="{% static 'pokedex/index.css' %}"> {% endblock %}
+{% block script %} <script src="{% static 'pokedex/index.js' %}"></script> {% endblock %}
+
 
 {% block content %}
-<h1>This is the index</h1>
+<div class="search-form">
+    <form action="" method="POST" id="pokemon-search">
+        {% csrf_token %}
+        <div class="input-group">
+            <input class="form-control" type="text" name="pokemon-query" placeholder="Pokemon name" aria-label="Search">
+            <span class="input-group-append">
+                <button class="btn btn-dark" type="submit">
+                    <img src="{% static 'search.svg' %}" alt="Search" class="search-image">
+                </button>
+            </span>
+        </div>
+    </form>
+</div>
+
+<div class="search-form mt-3">
+    <form action="" method="POST" id="move-search">
+        {% csrf_token %}
+        <div class="input-group">
+            <input class="form-control" type="text" name="move-query" placeholder="Move name" aria-label="Search">
+            <span class="input-group-append">
+                <button class="btn btn-dark" type="submit">
+                    <img src="{% static 'search.svg' %}" alt="Search" class="search-image">
+                </button>
+            </span>
+        </div>
+    </form>
+</div>
+
+<img src="{% static 'pokedex/pokedex.png' %}" alt="Pokedex" id="pokedex-img" class="mt-2">
 {% endblock %}

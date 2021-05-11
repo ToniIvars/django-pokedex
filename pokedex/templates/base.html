@@ -22,6 +22,13 @@
 <body>
     <header class="mb-3">
         <!-- Fixed navbar -->
+        {% if index %}
+        <nav class="sticky-top bg-danger p-2 d-flex justify-content-center align-items-center">
+            <a class="mb-2 mb-md-0" href="{% url 'pokedex_index' %}">
+                <img src="{% static 'logo.png' %}" alt="Logo" style="width: 16rem;">
+            </a>
+        </nav>
+        {% else %}
         <nav class="sticky-top bg-danger p-2 d-flex flex-column flex-md-row justify-content-between align-items-center">
             <a class="mb-2 mb-md-0" href="{% url 'pokedex_index' %}">
                 <img src="{% static 'logo.png' %}" alt="Logo" style="width: 16rem;">
@@ -29,7 +36,7 @@
             <form action="" method="POST" id="search-form">
                 {% csrf_token %}
                 <div class="input-group">
-                    <input class="form-control" type="text" name="query" placeholder="Search" aria-label="Search">
+                    <input class="form-control" type="text" name="query" placeholder="Pokemon name" aria-label="Search">
                     <span class="input-group-append">
                         <button class="btn btn-dark" type="submit">
                             <img src="{% static 'search.svg' %}" alt="Search" id="search-image">
@@ -38,6 +45,7 @@
                 </div>
             </form>
         </nav>
+        {% endif %}
     </header>
 
     {% bootstrap_messages %}

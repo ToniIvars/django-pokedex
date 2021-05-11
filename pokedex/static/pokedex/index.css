@@ -1,0 +1,17 @@
+.search-image {
+    width: 1.4rem;
+}
+
+.search-form {
+    width: 24rem;
+}
+
+#pokedex-img {
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    .search-form, #pokedex-img {
+        width: 100%;
+    }
+}
