@@ -40,4 +40,8 @@
     <canvas id="stats-chart" height="150"></canvas>
     <p class="ml-4" id="total-stats"></p>
 </div>
+
+<h2 class="subtitle text-center">
+    <a class="link" href="{% url 'moves' name=data.name %}">{{data.name|capfirst}} moves</a>
+</h2>
 {% endblock %}

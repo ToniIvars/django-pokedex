@@ -11,3 +11,7 @@
         width: 100%;
     }
 }
+
+.link:hover {
+    text-decoration: none;
+}

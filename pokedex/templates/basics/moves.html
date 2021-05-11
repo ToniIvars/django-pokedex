@@ -6,7 +6,9 @@
 {% block script %} <script src="{% static 'basics/moves.js' %}"></script> {% endblock %}
 
 {% block content %}
-<h1 id="pokemon-title">{{data.name|capfirst}} moves</h1>
+<h1 id="pokemon-title">
+    <a class="link" href="{% url 'pokemon' name=data.name %}">{{data.name|capfirst}}</a> moves
+</h1>
 
 <!-- Generation buttons -->
 <div class="d-flex flex-wrap justify-content-center mb-3">
