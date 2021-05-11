@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const gen_tables = Array.from(document.querySelectorAll('.gen-tables'))
 
     gen_buttons.slice(-1).pop().classList.add('button-disabled')
+    gen_buttons.slice(-1).pop().disabled = true
     document.getElementById(gen_buttons.slice(-1).pop().id.slice(4)).classList.remove('d-none')
     gen_title.innerHTML = 'Generation 7'
 
