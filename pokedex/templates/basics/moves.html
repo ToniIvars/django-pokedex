@@ -11,13 +11,16 @@
 <!-- Generation buttons -->
 <div class="d-flex flex-wrap justify-content-center mb-3">
     {% for gen, moves in data.moves %}
+    {% if moves.level_up or moves.egg or moves.machine or moves.tutor%}
     <button class="mx-3 gen-buttons" id="btn-{{gen}}">Gen {{gen|make_list|last}}</button>
+    {% endif %}
     {% endfor %}
 </div>
 
 <h2 class="subtitle text-center" id="gen-title">Generation 1</h2>
 
 {% for gen, moves in data.moves %}
+{% if moves.level_up or moves.egg or moves.machine or moves.tutor%}
 <div id="{{gen}}" class="gen-tables d-none">
     <h3 class="learn-method ml-2 mt-2 text-primary">Level up</h3>
     <table class="table table-hover text-center">
@@ -133,5 +136,6 @@
     </table>
     {% endif %}
 </div>
+{% endif %}
 {% endfor %}
 {% endblock %}
