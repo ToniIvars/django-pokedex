@@ -10,18 +10,15 @@
 
 <!-- Generation buttons -->
 <div class="d-flex flex-wrap justify-content-center mb-3">
-    <button class="mx-3 gen-buttons button-disabled" id="gen-1">Gen I</button>
-    <button class="mx-3 gen-buttons" id="gen-2">Gen II</button>
-    <button class="mx-3 gen-buttons" id="gen-3">Gen III</button>
-    <button class="mx-3 gen-buttons" id="gen-4">Gen IV</button>
-    <button class="mx-3 gen-buttons" id="gen-5">Gen V</button>
-    <button class="mx-3 gen-buttons" id="gen-6">Gen VI</button>
-    <button class="mx-3 gen-buttons" id="gen-7">Gen VII</button>
+    {% for gen, moves in data.moves %}
+    <button class="mx-3 gen-buttons" id="btn-{{gen}}">Gen {{gen|make_list|last}}</button>
+    {% endfor %}
 </div>
 
-<h2 class="subtitle text-center" id="gen-title">Generation I</h2>
+<h2 class="subtitle text-center" id="gen-title">Generation 1</h2>
 
-<div id="gen-1" class="gen-tables">
+{% for gen, moves in data.moves %}
+<div id="{{gen}}" class="gen-tables d-none">
     <h3 class="learn-method ml-2 mt-2 text-primary">Level up</h3>
     <table class="table table-hover text-center">
         <thead>
@@ -36,7 +33,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for move in data.moves.gen_1.level_up|dictsort:"level" %}
+            {% for move in moves.level_up|dictsort:"level" %}
             <tr>
                 <td class="text-left">{{move.name}}</td>
                 <td class="align-middle">{{move.level}}</td>
@@ -50,7 +47,7 @@
         </tbody>
     </table>
 
-    {% if data.moves.gen_1.egg %}
+    {% if moves.egg %}
     <h3 class="learn-method ml-2 mt-2 text-primary">Egg</h3>
     <table class="table table-hover text-center">
         <thead>
@@ -65,7 +62,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for move in data.moves.gen_1.egg|dictsort:"level" %}
+            {% for move in moves.egg|dictsort:"level" %}
             <tr>
                 <td class="text-left">{{move.name}}</td>
                 <td class="align-middle">{{move.level}}</td>
@@ -93,7 +90,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for move in data.moves.gen_1.machine|dictsort:"name" %}
+            {% for move in moves.machine|dictsort:"name" %}
             <tr>
                 <td class="text-left">{{move.name}}</td>
                 <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
@@ -136,4 +133,5 @@
     </table>
     {% endif %}
 </div>
+{% endfor %}
 {% endblock %}

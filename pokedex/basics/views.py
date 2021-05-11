@@ -108,6 +108,6 @@ def moves(request, name):
             except IndexError:
                 pass
 
-    data = {'name':name, 'sprite':sprite, 'moves':moves}
+    data = {'name':name, 'sprite':sprite, 'moves':tuple(zip([f'gen-{num+1}' for num in range(7)], [moves[f'gen_{num+1}'] for num in range(7)]))}
 
     return render(request, 'basics/moves.html', {'data':data})

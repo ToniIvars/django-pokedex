@@ -4,6 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     form.onsubmit = event => {
         event.preventDefault()
-        window.location.replace(`/pokedex/pokemon/${query.value.toLowerCase()}`)
+        window.location.replace(`/pokemon/${query.value.toLowerCase()}`)
     }
 })
