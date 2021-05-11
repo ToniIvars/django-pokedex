@@ -28,11 +28,11 @@
             <tr>
                 <th class="text-left">Name</th>
                 <th>Level</th>
-                <th>Accuracy</th>
                 <th>Power</th>
-                <th>PP</th>
                 <th>Type</th>
                 <th>Category</th>
+                <th>Accuracy</th>
+                <th>PP</th>
             </tr>
         </thead>
         <tbody>
@@ -40,64 +40,68 @@
             <tr>
                 <td class="text-left">{{move.name}}</td>
                 <td class="align-middle">{{move.level}}</td>
-                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
-                <td class="align-middle">{{move.pp}}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
                 <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{move.pp}}</td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
 
+    {% if moves.machine %}
     <button class="d-block btn btn-primary dropdown-toggle mb-2" type="button" id="btn-{{gen}}-machine">Machine</button>
     <table class="table table-hover text-center"id="{{gen}}-machine">
         <thead>
             <tr>
+                    
                 <th class="text-left">Name</th>
-                <th>Accuracy</th>
                 <th>Power</th>
-                <th>PP</th>
                 <th>Type</th>
                 <th>Category</th>
+                <th>Accuracy</th>
+                <th>PP</th>
             </tr>
         </thead>
         <tbody>
             {% for move in moves.machine|dictsort:"name" %}
             <tr>
                 <td class="text-left">{{move.name}}</td>
-                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
-                <td class="align-middle">{{move.pp}}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
                 <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{move.pp}}</td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
+    {% endif %}
 
     {% if moves.egg %}
     <button class="d-block btn btn-primary dropdown-toggle mb-2" type="button" id="btn-{{gen}}-egg">Egg</button>
     <table class="table table-hover text-center"id="{{gen}}-egg">
         <thead>
             <tr>
+                    
                 <th class="text-left">Name</th>
-                <th>Accuracy</th>
                 <th>Power</th>
-                <th>PP</th>
                 <th>Type</th>
                 <th>Category</th>
+                <th>Accuracy</th>
+                <th>PP</th>
             </tr>
         </thead>
         <tbody>
             {% for move in moves.egg|dictsort:"name" %}
             <tr>
                 <td class="text-left">{{move.name}}</td>
-                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
-                <td class="align-middle">{{move.pp}}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
                 <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{move.pp}}</td>
             </tr>
             {% endfor %}
         </tbody>
@@ -109,23 +113,24 @@
     <table class="table table-hover text-center" id="{{gen}}-tutor">
         <thead>
             <tr>
+                    
                 <th class="text-left">Name</th>
-                <th>Accuracy</th>
                 <th>Power</th>
-                <th>PP</th>
                 <th>Type</th>
                 <th>Category</th>
+                <th>Accuracy</th>
+                <th>PP</th>
             </tr>
         </thead>
         <tbody>
             {% for move in moves.tutor %}
             <tr>
                 <td class="text-left">{{move.name}}</td>
-                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
-                <td class="align-middle">{{move.pp}}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
                 <td class="align-middle"><img class="category-images" src="{% static 'basics/'|add:move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
+                <td class="align-middle">{% if move.accuracy %}{{move.accuracy}} {% else %} --- {% endif %}</td>
+                <td class="align-middle">{{move.pp}}</td>
             </tr>
             {% endfor %}
         </tbody>
