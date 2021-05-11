@@ -40,7 +40,7 @@
         <tbody>
             {% for move in moves.level_up|dictsort:"level" %}
             <tr>
-                <td class="text-left">{{move.name}}</td>
+                <td class="text-left"><a class="move-link" href="{% url 'move' name=move.name|lower|slugify %}">{{move.name}}</a></td>
                 <td class="align-middle">{{move.level}}</td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
@@ -67,9 +67,9 @@
             </tr>
         </thead>
         <tbody>
-            {% for move in moves.machine|dictsort:"name" %}
+            {% for move in moves.machine|dictsort:"type" %}
             <tr>
-                <td class="text-left">{{move.name}}</td>
+                <td class="text-left"><a class="move-link" href="{% url 'move' name=move.name|lower|slugify %}">{{move.name}}</a></td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
                 <td class="align-middle"><img class="category-images" src="{% static move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
@@ -96,9 +96,9 @@
             </tr>
         </thead>
         <tbody>
-            {% for move in moves.egg|dictsort:"name" %}
+            {% for move in moves.egg|dictsort:"type" %}
             <tr>
-                <td class="text-left">{{move.name}}</td>
+                <td class="text-left"><a class="move-link" href="{% url 'move' name=move.name|lower|slugify %}">{{move.name}}</a></td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
                 <td class="align-middle"><img class="category-images" src="{% static move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
@@ -125,9 +125,9 @@
             </tr>
         </thead>
         <tbody>
-            {% for move in moves.tutor %}
+            {% for move in moves.tutor|dictsort:"type" %}
             <tr>
-                <td class="text-left">{{move.name}}</td>
+                <td class="text-left"><a class="move-link" href="{% url 'move' name=move.name|lower|slugify %}">{{move.name}}</a></td>
                 <td class="align-middle">{% if move.power %}{{move.power}} {% else %} --- {% endif %}</td>
                 <td class="align-middle"><span class="type type-{{move.type}}">{{move.type|upper}}</span></td>
                 <td class="align-middle"><img class="category-images" src="{% static move.category|add:'.png' %}" alt="{{move.category|capfirst}}"></td>
