@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     pokemon_form.onsubmit = event => {
         event.preventDefault()
-        window.location.replace(`/pokemon/${pokemon_query.value.toLowerCase()}`)
+        window.location.replace(`/pokemon/${pokemon_query.value.toLowerCase().replace(' ', '-').replace("'", '')}`)
     }
 
     move_form.onsubmit = event => {
         event.preventDefault()
-        window.location.replace(`/move/${move_query.value.toLowerCase()}`)
+        window.location.replace(`/move/${move_query.value.toLowerCase().replace(' ', '-').replace("'", '')}`)
     }
 })

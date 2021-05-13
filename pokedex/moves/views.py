@@ -13,6 +13,10 @@ def move(request, name):
 
     data = res.json()
 
+    effect = data['effect_entries'][0]['effect']
+    if '$effect_chance' in effect:
+        effect = effect.replace('$effect_chance', str(data['effect_chance']))
+
     move_data = {
         'accuracy': data['accuracy'],
         'power': data['power'],
@@ -20,8 +24,9 @@ def move(request, name):
         'type': data['type']['name'],
         'category': data['damage_class']['name'],
         'description': [entry['flavor_text'].replace('\n', ' ') for entry in data['flavor_text_entries'] if entry['language']['name'] == 'en' and  entry['version_group']['name'] =='ultra-sun-ultra-moon'][0],
-        'effect': data['effect_entries'][0]['effect']
+        'effect': effect
     }
+    
+    data = {'name':name.capitalize().replace('-', ' '), 'move_data':move_data}
 
-    data = {'name':name, 'move_data':move_data}
     return render(request, 'moves/move.html', {'data':data})

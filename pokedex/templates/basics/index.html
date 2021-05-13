@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %} {{data.name|capfirst}} {% endblock %}
+{% block title %} {{data.name}} {% endblock %}
 {% block style %} <link rel="stylesheet" href="{% static 'basics/index.css' %}"> {% endblock %}
 {% block script %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block content %}
-<h1 id="pokemon-title">{{data.name|capfirst}}</h1>
+<h1 id="pokemon-title">{{data.name}}</h1>
 
 <div class="d-flex flex-column flex-md-row align-items-center">
     <img src="{{data.sprite}}" alt="Sprite" id="pokemon-image" class="mr-0 mr-md-4">
@@ -90,6 +90,6 @@
 </div>
 
 <h2 class="subtitle text-center mt-3">
-    <a class="link" href="{% url 'moves' name=data.name %}">{{data.name|capfirst}} moves</a>
+    <a class="link" href="{% url 'moves' name=data.name|slugify %}">{{data.name}} moves</a>
 </h2>
 {% endblock %}

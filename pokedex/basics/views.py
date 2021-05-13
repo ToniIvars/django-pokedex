@@ -55,6 +55,9 @@ def pokemon(request, name):
     stats = get_stats(data)
     evolution_chain = get_evolution_chain(name)
 
+    name = name.title().replace('-', ' ')
+    name = "Farfetch'd" if name == 'Farfetchd' else "Sirfetch'd" if name in ('Farfetchd', 'Sirfetchd') else name
+
     data = {'name':name, 'sprite':sprite, 'abilities':abilities, 'types':types, 'stats':stats, 'evolution_chain':evolution_chain}
 
     return render(request, 'basics/index.html', {'data':data})
@@ -117,6 +120,9 @@ def moves(request, name):
             
             except IndexError:
                 pass
+
+    name = name.title().replace('-', ' ')
+    name = "Farfetch'd" if name == 'Farfetchd' else "Sirfetch'd" if name in ('Farfetchd', 'Sirfetchd') else name
 
     data = {'name':name, 'sprite':sprite, 'moves':tuple(zip([f'gen-{num+1}' for num in range(7)], [moves[f'gen_{num+1}'] for num in range(7)]))}
 

@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %} {{data.name|capfirst}} {% endblock %}
+{% block title %} {{data.name}} {% endblock %}
 {% block style %} <link rel="stylesheet" href="{% static 'moves/move.css' %}"> {% endblock %}
 {% block script %} <script src="{% static 'moves/move.js' %}"></script> {% endblock %}
 
 {% block content %}
-<h1 id="move-title" class="mb-3">{{data.name|capfirst}}</h1>
+<h1 id="move-title" class="mb-3">{{data.name}}</h1>
 
 <div class="responsive-table">
     <table class="table text-center">
