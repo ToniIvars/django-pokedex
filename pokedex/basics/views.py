@@ -3,8 +3,18 @@ from django.contrib import messages
 from django.http import JsonResponse
 
 import json, requests
-from pathlib import Path
-BASE_DIR = Path(__file__).resolve().parent.parent
+
+def get_evolution_chain(pokemon):
+    pokemon_name = pokemon.title().replace('-', ' ')
+    if pokemon_name == 'Farfetchd':
+        pokemon_name = "Farfetch'd"
+    if pokemon_name == 'Sirfetchd':
+        pokemon_name = "Sirfetch'd"
+    evolution_file = json.load(open('evolutions.json', 'r'))
+
+    for evo in evolution_file:
+        if pokemon_name in evo['chain']:            
+            return evo
 
 def get_abilities(data):
     abilities = []
@@ -14,7 +24,6 @@ def get_abilities(data):
             'url':d['ability']['url'],
             'is_hidden': d['is_hidden']
         }
-        # abilities_dict.update({})
 
         abilities.append(abilities_dict)
 
@@ -44,8 +53,9 @@ def pokemon(request, name):
     abilities = get_abilities(data)
     types = get_types(data)
     stats = get_stats(data)
+    evolution_chain = get_evolution_chain(name)
 
-    data = {'name':name, 'sprite':sprite, 'abilities':abilities, 'types':types, 'stats':stats}
+    data = {'name':name, 'sprite':sprite, 'abilities':abilities, 'types':types, 'stats':stats, 'evolution_chain':evolution_chain}
 
     return render(request, 'basics/index.html', {'data':data})
 

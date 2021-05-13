@@ -41,7 +41,55 @@
     <p class="ml-4" id="total-stats"></p>
 </div>
 
-<h2 class="subtitle text-center">
+<h2 class="subtitle text-center mt-2">Evolution chain</h2>
+<div class="responsive-table">
+    <table class="text-center w-100">
+        <tbody>
+            <tr>
+                <td id="base-pokemon" class="w-100">
+                    <a href="{% url 'pokemon' name=data.evolution_chain.base_pokemon.name|slugify %}">
+                        <img class="evo-image" src="{{data.evolution_chain.base_pokemon.sprite}}" alt="{{data.evolution_chain.base_pokemon.name}}">
+                        <p>{{data.evolution_chain.base_pokemon.name}}</p>
+                    </a>
+                </td>
+
+                {% if data.evolution_chain.first_stages %}
+                <td id="first-stages">
+                    {% for first_stage in data.evolution_chain.first_stages %}
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="text-center">
+                            <a href="{% url 'pokemon' name=first_stage.name|slugify %}">
+                                <img class="evo-image" src="{{first_stage.sprite}}" alt="{{first_stage.name}}">
+                                <p class="text-center mb-0">{{first_stage.name}}</p>
+                            </a>
+                            <p class="text-center mt-0">({{first_stage.evolution_method}})</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </td>
+                {% endif %}
+
+                {% if data.evolution_chain.second_stages %}
+                <td id="second-stages">
+                    {% for second_stage in data.evolution_chain.second_stages %}
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="text-center">
+                            <a href="{% url 'pokemon' name=second_stage.name|slugify %}">
+                                <img class="evo-image" src="{{second_stage.sprite}}" alt="{{second_stage.name}}">
+                                <p class="text-center mb-0">{{second_stage.name}}</p>
+                            </a>
+                            <p class="text-center mt-0">({{second_stage.evolution_method}})</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </td>
+                {% endif %}
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 class="subtitle text-center mt-3">
     <a class="link" href="{% url 'moves' name=data.name %}">{{data.name|capfirst}} moves</a>
 </h2>
 {% endblock %}

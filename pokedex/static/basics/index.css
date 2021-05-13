@@ -16,9 +16,36 @@
     width: 50%;
 }
 
+.evo-image {
+    width: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.arrow {
+    width: 5rem;
+    height: 1.5rem;
+}
+
+.responsive-table {
+    width: 60%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     #canvas-container {
         width: 100%;
+    }
+
+    .responsive-table {
+        width: 100%;
+        overflow: auto;
     }
 }
 

@@ -19,7 +19,11 @@
     {% endfor %}
 </div>
 
+{% for gen, moves in data.moves|slice:"-1:" %}
+{% if moves.level_up or moves.egg or moves.machine or moves.tutor %}
 <h2 class="subtitle text-center" id="gen-title">Generation 1</h2>
+{% endif %}
+{% endfor %}
 
 {% for gen, moves in data.moves %}
 {% if moves.level_up or moves.egg or moves.machine or moves.tutor %}

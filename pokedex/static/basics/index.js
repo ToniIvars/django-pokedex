@@ -53,5 +53,16 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Chart.defaults.global.legend.display = false
+    const base_pokemon = document.getElementById('base-pokemon')
+    const first_stages = document.getElementById('first-stages')
+    const second_stages = document.getElementById('second-stages')
+
+    if (second_stages) {
+        base_pokemon.classList.replace('w-100', 'w-33')
+        first_stages.classList.add('w-33')
+        second_stages.classList.add('w-33')
+    } else if (first_stages) {
+        base_pokemon.classList.replace('w-100', 'w-50')
+        first_stages.classList.add('w-50')
+    }
 })
