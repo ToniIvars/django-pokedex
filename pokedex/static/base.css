@@ -12,11 +12,11 @@
     }
 }
 
-.move-link {
+.move-link, .ability-link {
     color: #212529;
 }
 
-.move-link:hover {
+.move-link:hover, .ability-link:hover {
     text-decoration: none;
     color: #5d5f61;
 }

@@ -25,7 +25,9 @@
         <h2 class="subtitle text-center mb-0 pt-4">Abilities</h2>
         <div>
             {% for ability in data.abilities %}
-            <p class="my-0 my-md-1 text-center">{{ability.name|capfirst}} {% if ability.is_hidden %}(hidden){% endif %}</p>
+            <a class="ability-link" href="{% url 'ability' name=ability.name|slugify %}">
+                <p class="my-0 my-md-1 text-center">{{ability.name|capfirst}} {% if ability.is_hidden %}(hidden){% endif %}</p>
+            </a>
             {% endfor %}
         </div>
     </div>

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} {{data.name}} {% endblock %}
+{% block style %} <link rel="stylesheet" href="{% static 'abilities/ability.css' %}"> {% endblock %}
+
+{% block content %}
+<h1 id="move-title" class="mb-3">{{data.name}}</h1>
+
+<h2 class="subtitle text-center mt-4">Description</h2>
+<p class="text-justify">{{data.move_data.description}}</p>
+
+<h2 class="subtitle text-center mt-4">Effect</h2>
+<p class="text-justify">{{data.move_data.effect}}</p>
+{% endblock %}

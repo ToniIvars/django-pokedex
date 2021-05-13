@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('pokemon/', include('basics.urls')),
     path('move/', include('moves.urls')),
+    path('ability/', include('abilities.urls')),
     path('', views.index, name='pokedex_index')
 ]
