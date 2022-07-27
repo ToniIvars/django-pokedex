@@ -124,6 +124,6 @@ def moves(request, name):
     name = name.title().replace('-', ' ')
     name = "Farfetch'd" if name == 'Farfetchd' else "Sirfetch'd" if name in ('Farfetchd', 'Sirfetchd') else name
 
-    data = {'name':name, 'sprite':sprite, 'moves':tuple(zip([f'gen-{num+1}' for num in range(7)], [moves[f'gen_{num+1}'] for num in range(7)]))}
+    data = {'name':name.lower(), 'sprite':sprite, 'moves':tuple(zip([f'gen-{num+1}' for num in range(7)], [moves[f'gen_{num+1}'] for num in range(7)]))}
 
     return render(request, 'basics/moves.html', {'data':data})
