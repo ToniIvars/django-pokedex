@@ -95,7 +95,10 @@ def moves(request, name):
 
     for move in data['moves']:      
         move_name = move['move']['name'].capitalize().replace('-', ' ')
-        information = json.load(open('moves_information.json', 'r'))[str(move['move']['url'].split('/')[-2])]
+        information = json.load(open('moves_information.json', 'r')).get(str(move['move']['url'].split('/')[-2]))
+
+        if not information:
+            continue
 
         for details in move['version_group_details']:
             level_learned = details['level_learned_at']
