@@ -1,0 +1,11 @@
+services:
+  web:
+    image: django-pokedex
+    container_name: pokedex
+    ports:
+      - 8000:8000
+    environment:
+      - SECRET_KEY= # Generate a random secret key in https://djecrety.ir/
+      - ALLOWED_HOSTS=127.0.0.1 localhost
+      - DEBUG=False
+    restart: unless-stopped
